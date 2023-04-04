@@ -20,4 +20,12 @@ public class RajuClass {
 		System.out.println("tapu loves sonu");
 	}
 
+	@Test
+	public void abhii() {
+		System.out.println("abhii loves sonu");
+	}
+	@Test
+	public void rajuu() {
+		System.out.println("rajuu loves sonu");
+	}
 }
