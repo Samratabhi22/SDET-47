@@ -15,5 +15,9 @@ public class RajuClass {
 	public void banana() {
 		System.out.println("yellow  fruit");
 	}
+	@Test
+	public void tapu() {
+		System.out.println("tapu loves sonu");
+	}
 
 }
