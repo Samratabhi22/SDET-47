@@ -19,5 +19,9 @@ public class RajuClass {
 	public void tapu() {
 		System.out.println("tapu loves sonu");
 	}
+	@Test
+	public void alina() {
+		System.out.println("tapu loves sonu");
+	}
 
 }
