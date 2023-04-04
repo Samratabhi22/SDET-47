@@ -7,5 +7,13 @@ public class RajuClass {
 	public void mango() {
 		System.out.println("my faverate fruit");
 	}
+	@Test
+	public void apple() {
+		System.out.println("red  fruit");
+	}
+	@Test
+	public void banana() {
+		System.out.println("yellow  fruit");
+	}
 
 }
