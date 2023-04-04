@@ -30,4 +30,12 @@ public class RajuClass {
 	
 	
 
+	@Test
+	public void abhii() {
+		System.out.println("abhii loves sonu");
+	}
+	@Test
+	public void rajuu() {
+		System.out.println("rajuu loves sonu");
+	}
 }
