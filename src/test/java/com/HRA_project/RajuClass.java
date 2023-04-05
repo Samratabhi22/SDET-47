@@ -23,5 +23,19 @@ public class RajuClass {
 	public void alina() {
 		System.out.println("");
 	}
+	@Test
+	public void waris() {
+		System.out.println("tapu loves waris");
+	}
+	
+	
 
+	@Test
+	public void abhii() {
+		System.out.println("abhii loves sonu");
+	}
+	@Test
+	public void rajuu() {
+		System.out.println("rajuu loves sonu");
+	}
 }
