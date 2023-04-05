@@ -36,6 +36,6 @@ public class RajuClass {
 	}
 	@Test
 	public void rajuu() {
-		System.out.println("rajuu loves sonu");
+		System.out.println("");
 	}
 }
