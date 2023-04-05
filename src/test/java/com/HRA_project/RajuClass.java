@@ -21,7 +21,7 @@ public class RajuClass {
 	}
 	@Test
 	public void alina() {
-		System.out.println("tapu loves sonu");
+		System.out.println("");
 	}
 
 }
