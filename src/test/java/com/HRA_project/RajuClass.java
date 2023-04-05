@@ -36,6 +36,6 @@ public class RajuClass {
 	}
 	@Test
 	public void rajuu() {
-		System.out.println("");
+		System.out.println("hi");
 	}
 }
