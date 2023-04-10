@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="80" started-at="2023-04-03T09:59:38 IST" finished-at="2023-04-03T09:59:39 IST">
+  <suite name="Suite" duration-ms="76" started-at="2023-04-09T11:43:38 IST" finished-at="2023-04-09T11:43:38 IST">
     <groups>
       <group name="regression">
-        <method signature="TestScript_01Test.test1()[pri:0, instance:com.HRA_project.TestScript_01Test@cd2dae5]" name="test1" class="com.HRA_project.TestScript_01Test"/>
-        <method signature="TestScript_01Test.test2()[pri:0, instance:com.HRA_project.TestScript_01Test@cd2dae5]" name="test2" class="com.HRA_project.TestScript_01Test"/>
+        <method signature="TestScript_01Test.test1()[pri:0, instance:com.HRA_project.TestScript_01Test@711f39f9]" name="test1" class="com.HRA_project.TestScript_01Test"/>
+        <method signature="TestScript_01Test.test2()[pri:0, instance:com.HRA_project.TestScript_01Test@711f39f9]" name="test2" class="com.HRA_project.TestScript_01Test"/>
+        <method signature="TestScript_02.deleteAgain()[pri:0, instance:com.HRA_project.TestScript_02@7d0587f1]" name="deleteAgain" class="com.HRA_project.TestScript_02"/>
       </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="TestScript_01Test.test3()[pri:0, instance:com.HRA_project.TestScript_01Test@cd2dae5]" name="test3" class="com.HRA_project.TestScript_01Test"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name="Surefire test" duration-ms="80" started-at="2023-04-03T09:59:38 IST" finished-at="2023-04-03T09:59:39 IST">
+    <test name="Test" duration-ms="76" started-at="2023-04-09T11:43:38 IST" finished-at="2023-04-09T11:43:38 IST">
+      <class name="com.HRA_project.TestScript_02">
+        <test-method status="PASS" signature="deleteAgain()[pri:0, instance:com.HRA_project.TestScript_02@7d0587f1]" name="deleteAgain" duration-ms="9" started-at="2023-04-09T11:43:38 IST" finished-at="2023-04-09T11:43:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAgain -->
+      </class> <!-- com.HRA_project.TestScript_02 -->
       <class name="com.HRA_project.TestScript_01Test">
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.HRA_project.TestScript_01Test@cd2dae5]" name="test1" duration-ms="9" started-at="2023-04-03T09:59:39 IST" finished-at="2023-04-03T09:59:39 IST">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.HRA_project.TestScript_01Test@711f39f9]" name="test1" duration-ms="0" started-at="2023-04-09T11:43:38 IST" finished-at="2023-04-09T11:43:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.HRA_project.TestScript_01Test@cd2dae5]" name="test2" duration-ms="1" started-at="2023-04-03T09:59:39 IST" finished-at="2023-04-03T09:59:39 IST">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.HRA_project.TestScript_01Test@711f39f9]" name="test2" duration-ms="1" started-at="2023-04-09T11:43:38 IST" finished-at="2023-04-09T11:43:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:com.HRA_project.TestScript_01Test@cd2dae5]" name="test3" duration-ms="1" started-at="2023-04-03T09:59:39 IST" finished-at="2023-04-03T09:59:39 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
       </class> <!-- com.HRA_project.TestScript_01Test -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
